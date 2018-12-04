@@ -32,6 +32,8 @@ a {
     text-decoration: none !important; }
 
 p {
+  text-align: justify;
+  text-justify: inter-word;
   margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
