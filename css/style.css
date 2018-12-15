@@ -295,8 +295,12 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
+          color: black;
+          font-family: "Playfair Display", Georgia, serif; }
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner .page-2 h1 {
+          margin: 0;
+          padding: 0;
           color: white;
-          text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -335,12 +339,12 @@ figure {
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: white;
-            border: 1px solid white;
+            color: black;
+            border: 1px solid black;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
-              border: 1px solid #ccff66 !important; }
+              border: 1px solid #fff !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
