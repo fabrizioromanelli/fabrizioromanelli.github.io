@@ -95,6 +95,20 @@
 		} , { offset: '85%' } );
 	};
 
+    /* The following code manages the "Load more" button */
+    $(document ).ready(function () {
+      $(".more-box").slice(0, 2).show();
+      if ($(".animate-box:hidden").length != 0) {
+        $(".btn-load-more").show();
+      }
+      $(".btn-load-more").on('click', function (e) {
+        e.preventDefault();
+        $(".more-box:hidden").slice(0, 3).slideDown();
+        if ($(".more-box:hidden").length == 0) {
+          $(".btn-load-more").fadeOut('slow');
+        }
+      });
+    });
 
 	var burgerMenu = function() {
 
