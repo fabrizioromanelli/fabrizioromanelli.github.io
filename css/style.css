@@ -886,7 +886,7 @@ body.offcanvas {
   width: 100%;
   float: left;
   background: #fff;
-  margin-bottom: 3em; }
+  margin-bottom: 0em; }
   @media screen and (max-width: 768px) {
     .blog-entry {
       margin-bottom: 3em; } }
@@ -1037,8 +1037,12 @@ body.offcanvas {
     margin-left: 0; }
   .work-menu span a {
     color: #000; }
+  .work-menu span a:hover {
+      color: #2c98f0; }
     .work-menu span a.active {
       color: #2c98f0; }
+    .work-menu span a.active:hover {
+      color: #bbd2e5; }
 
 .project {
   background-size: cover;
