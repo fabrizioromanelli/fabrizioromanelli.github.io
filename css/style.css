@@ -191,11 +191,14 @@ figure {
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     font-size: 15px;
-    text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
+    margin: auto;
     width: 100%; }
+  #colorlib-aside .colorlib-footer p {
+    text-align: center;
+    margin: auto;
+  }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
@@ -204,14 +207,14 @@ figure {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
       padding: 0;
-      margin: 0; }
+      text-align: center;
+      margin: auto; }
       #colorlib-aside .colorlib-footer ul li {
         padding: 0;
-        margin: 0;
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: #668198;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -582,6 +585,12 @@ body.offcanvas {
     background: #a84cb8; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-6 {
+    background: #501674; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-7 {
+    background: #eaf83c; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-8 {
+    background: #ff8000; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
     background: #fff;
     width: 20px;
@@ -831,6 +840,24 @@ body.offcanvas {
       background: #4054b2; }
     .progress-bar.color-6 span {
       color: #4054b2; }
+  .progress-bar.color-7 {
+    background: #501674; }
+    .progress-bar.color-7:after {
+      background: #501674; }
+    .progress-bar.color-7 span {
+      color: #501674; }
+  .progress-bar.color-8 {
+    background: #abfa3e; }
+    .progress-bar.color-8:after {
+      background: #abfa3e; }
+    .progress-bar.color-8 span {
+      color: #abfa3e; }
+  .progress-bar.color-9 {
+    background: #ff8000; }
+    .progress-bar.color-9:after {
+      background: #ff8000; }
+    .progress-bar.color-9 span {
+      color: #ff8000; }
 
 .colorlib-feature {
   text-align: left;

@@ -95,6 +95,22 @@
 		} , { offset: '85%' } );
 	};
 
+  // This function performs a check on right click and generates an alert
+  $(function () {
+    var i;
+    var date = new Date().getFullYear();
+    const modalElement = document.getElementById('myModal').getElementsByTagName('img');
+    modalElement[0].addEventListener('contextmenu', function () {
+        alert("Copyright \u00A9 "+date+" Fabrizio Romanelli");
+      });
+    const imgElements = document.getElementsByClassName('blog-img');
+    for (i = 0; i < imgElements.length; i++) {
+      imgElements[i].addEventListener('contextmenu', function () {
+        alert("Copyright \u00A9 "+date+" Fabrizio Romanelli");
+      });
+    }
+  });
+
   /* The following code manages the active tab */
   $(document ).ready(function () {
     $(".work-menu span a").on('click', function (e) {
@@ -232,11 +248,6 @@
 		});
 
 	};
-
-
-
-
-
 
 	var sliderMain = function() {
 		
